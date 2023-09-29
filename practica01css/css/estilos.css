@@ -35,7 +35,7 @@ header nav form input{
     border-radius: 5px;
 }
 
-header nav form input[type = "submit"]{
+header nav form input[type="submit"]{
     background: green;
     color: white;
     border: 1px solid green;
@@ -65,4 +65,37 @@ header nav ul li{
 #section01 article img{
     width: 98%;
     border: 5px solid rgba(150, 150, 150, 0.5);
+}
+
+#section02{
+    margin-bottom: 50px;
+}
+
+#section02 article{
+    /*border: 1px solid blue;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 33.0%;
+}
+
+#section02 article input[type="submit"]{
+    background: white;
+    border-radius: 5px;
+    color: blue;
+    padding: 12px;
+    /*margin: auto 115px;*/
+    display: block;
+    margin: 0px auto;
+}
+
+.nito{
+    font-weight: bold; /* Negritas */
+}
+
+.otraSeccion{
+    font-size: 2.5em;
+}
+
+.unaSeccion{
+    font-size: 4.5em; /* <---- 16px X 4.5 */
 }
